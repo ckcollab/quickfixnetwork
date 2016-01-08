@@ -1,0 +1,57 @@
+@import "index";
+
+#breadcrumb{
+	padding-top: 75px;
+}
+
+.list{
+	border: #777 solid 2px;
+	list-style: none;
+	margin-right: 450px;
+	margin-left: 300px;
+	padding: 2px 2px 2px 5px;
+	border-radius: 8px;
+	font-size: 18px;
+}
+
+.list_link{
+	color: @gray-fg;
+	background-color: @gray-bg;
+}
+
+.list_link:visited{
+	color: rgba(32, 114, 140, 255);
+	background-color: @gray-bg;
+}
+
+.list_link:hover{
+	color: @gray;
+	background-color: @gray-bg;
+}
+
+.breadcrumb {
+	background: rgba(204, 204, 204, 1); 
+	background: -webkit-linear-gradient(top, rgba(87, 81, 81, 1) 0%, rgba(204, 204, 204, 1) 100%); 
+	background: linear-gradient(to bottom, rgba(87, 81, 81, 1) 0%, rgba(204, 204, 204, 1) 100%); 
+	border: 0px solid rgba(143, 143, 143, 1); 
+	border-radius: 25px; 
+	display: block;
+	
+	.breadcrumb li {
+		font-size: 14px;
+	}
+	.breadcrumb a {
+		color: rgba(255, 255, 255, 1);
+	}
+	.breadcrumb a:hover {
+		color: rgba(199, 199, 199, 1);
+	}
+}
+
+.breadcrumb>.active {
+	color: rgba(214, 214, 214, 1);
+}
+.breadcrumb>li+li:before {
+	color: rgba(204, 204, 204, 1); 
+	content: "\002F\00a0";
+}
