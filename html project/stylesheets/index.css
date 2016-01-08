@@ -1,0 +1,87 @@
+body {
+  background-color: #999;
+  color: #ddd;
+}
+#intro {
+  color: #d00;
+  text-align: center;
+}
+.package {
+  border: 2px solid #333;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.modal {
+  color: #000;
+}
+.breadcrumb {
+  background: #cccccc;
+  background: -webkit-linear-gradient(top, #575151 0%, #cccccc 100%);
+  background: linear-gradient(to bottom, #575151 0%, #cccccc 100%);
+  border: 0px solid #8f8f8f;
+  border-radius: 25px;
+  display: block;
+}
+.breadcrumb .breadcrumb li {
+  font-size: 14px;
+}
+.breadcrumb .breadcrumb a {
+  color: #ffffff;
+}
+.breadcrumb .breadcrumb a:hover {
+  color: #c7c7c7;
+}
+.breadcrumb > .active {
+  color: #d6d6d6;
+}
+.breadcrumb > li + li:before {
+  color: #cccccc;
+  content: "\002F\00a0";
+}
+body {
+  background-color: #999;
+  color: #ddd;
+}
+#header {
+  background-color: #999;
+  border: 5px outset #333;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 0;
+}
+#main_article {
+  border: 2px outset #555;
+  padding: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+}
+.breadcrumb {
+  background: #cccccc;
+  background: -webkit-linear-gradient(top, #575151 0%, #cccccc 100%);
+  background: linear-gradient(to bottom, #575151 0%, #cccccc 100%);
+  border: 0px solid #8f8f8f;
+  border-radius: 25px;
+  display: block;
+}
+.breadcrumb li {
+  font-size: 14px;
+}
+.breadcrumb a {
+  color: #ffffff;
+}
+.breadcrumb a:hover {
+  color: #c7c7c7;
+}
+.breadcrumb > .active {
+  color: #d6d6d6;
+}
+.breadcrumb > li + li:before {
+  color: #cccccc;
+  content: "\002F\00a0";
+}

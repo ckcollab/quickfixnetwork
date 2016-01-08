@@ -1,0 +1,40 @@
+.breadcrumb {
+  background: #cccccc;
+  background: -webkit-linear-gradient(top, #575151 0%, #cccccc 100%);
+  background: linear-gradient(to bottom, #575151 0%, #cccccc 100%);
+  border: 0px solid #8f8f8f;
+  border-radius: 25px;
+  display: block;
+}
+.breadcrumb li {
+  font-size: 14px;
+}
+.breadcrumb a {
+  color: #ffffff;
+}
+.breadcrumb a:hover {
+  color: #c7c7c7;
+}
+.breadcrumb > .active {
+  color: #d6d6d6;
+}
+.breadcrumb > li + li:before {
+  color: #cccccc;
+  content: "\002F\00a0";
+}
+#bio {
+  margin-left: 65px;
+  margin-right: 65px;
+  clear: left;
+  font-size: 18px;
+  color: #166B87;
+}
+#bio > img {
+  float: left;
+}
+.para {
+  padding-left: 225px;
+}
+.header {
+  margin-left: 300px;
+}

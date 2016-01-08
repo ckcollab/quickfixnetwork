@@ -1,0 +1,56 @@
+@import "index";
+@import "mobile";
+@gray_: #ddd;
+@red: #d00;
+
+body{
+	background-color: @gray-bg;
+	color: @gray_;
+}
+
+#intro{
+	color: @red;
+	text-align: center;
+}
+
+.package{
+	border: 2px solid #333;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+}
+
+.modal{
+	color: #000;
+}
+
+.breadcrumb {
+	background: rgba(204, 204, 204, 1); 
+	background: -webkit-linear-gradient(top, rgba(87, 81, 81, 1) 0%, rgba(204, 204, 204, 1) 100%); 
+	background: linear-gradient(to bottom, rgba(87, 81, 81, 1) 0%, rgba(204, 204, 204, 1) 100%); 
+	border: 0px solid rgba(143, 143, 143, 1); 
+	border-radius: 25px; 
+	display: block;
+	
+	.breadcrumb li {
+		font-size: 14px;
+	}
+	.breadcrumb a {
+		color: rgba(255, 255, 255, 1);
+	}
+	.breadcrumb a:hover {
+		color: rgba(199, 199, 199, 1);
+	}
+}
+
+.breadcrumb>.active {
+	color: rgba(214, 214, 214, 1);
+}
+.breadcrumb>li+li:before {
+	color: rgba(204, 204, 204, 1); 
+	content: "\002F\00a0";
+}
