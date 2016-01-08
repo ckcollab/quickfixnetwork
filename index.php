@@ -18,7 +18,8 @@ $whitelist = array(
     "software_mgmt" => "Software Management",
     "about_me" => "About me",
     "packages" => "Packages",
-    "home" => "Home"
+    "home" => "Home",
+    "contact" => "Contact"
 );
 
 if(isset($page)) {
@@ -102,14 +103,6 @@ if(isset($page)) {
                                 <input type="text" name="q" class="form-control" placeholder="Search">
                             </div>
                         </form>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li style="padding-left: 25px;"><a href="profile/settings.html"></a>Settings</li>
-                                <li style="padding-left: 25px;"><a href="profile/friends.html"></a>Friends</li>
-                                <li style="padding-left: 25px;"><a href="profile/posts.html"></a>Posts</li>
-                                <li style="padding-left: 25px;"><a href="#"></a>Log Out</li>
-                            </ul>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -135,15 +128,16 @@ if(isset($page)) {
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form role="form">
+                    <form role="form" method="POST" action="index.php?page=contact">
                         <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" id="name" name="name">
                             <label>Email</label>
-                            <input type="email" class="form-control" id="email">
-                            <label>Name/Username</label>
-                            <input type="text" class="form-control" id="name">
+                            <input type="email" class="form-control" id="email" name="email">
                             <label>Message</label>
+                            <textarea class="form-control" id="name" name="message" rows="6"></textarea>
                         </div>
-                        <textarea rows="10" cols="60"></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
                 </div>
             </div>
